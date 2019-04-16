@@ -1,7 +1,6 @@
+#!/bin/bash
 apt install emacs -y
-export INSTALLATION_PATH=~/SDK # replace with your own
-
-## installing agda
+export INSTALLATION_PATH=~/SDK
 cabal install alex happy cpphs
 cabal install --allow-newer Agda
 agda-mode setup
