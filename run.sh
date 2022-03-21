@@ -1,4 +1,5 @@
 #!/bin/bash
+echo 1
 apt install emacs -y
 export INSTALLATION_PATH=~/SDK
 cabal update
